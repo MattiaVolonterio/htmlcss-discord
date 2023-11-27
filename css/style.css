@@ -169,7 +169,7 @@ section:nth-of-type(even) {
 
 .section-small {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   padding: var(--padding-section) 0;
 }
 
@@ -186,6 +186,7 @@ section:nth-of-type(even) {
 .section-title {
   font-size: var(--title-font-size);
   padding-bottom: 20px;
+  margin-top: 35px;
 }
 
 .section-content {
